@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<script>
+	function pulaLinha() {
+		document.write("<br>");
+	}
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+	var login = "alura"
+	var pass = "alura123"
+
+	var loginInformado = prompt("Informe o seu login:")
+	var passInformado = prompt("Informe a sua senha:")
+
+	if(login == loginInformado && pass == passInformado){
+		mostra("Seja bem vindo!");
+		}
+		else{
+			mostra("Login ou senha invalidos!");
+		}
+	
+</script>
