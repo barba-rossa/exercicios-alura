@@ -1,1 +1,1 @@
-# exercises-alura
+# exercicios-alura
